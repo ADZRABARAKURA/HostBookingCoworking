@@ -20,7 +20,7 @@ namespace HostBooking
 
         public IConfiguration Configuration { get; }
 
-        // this method gets called by the runtime. Use this method to add services to the container.
+        // tHis method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
