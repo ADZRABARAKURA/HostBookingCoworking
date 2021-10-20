@@ -4,7 +4,7 @@ namespace HostBooking.Data.Models
 {
     public class AppDBWorkers: DbContext
     {
-        public DbSet<Workers> Blogs { get; set; }
+        public DbSet<User> Users { get; set; }
         
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
